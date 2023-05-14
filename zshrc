@@ -8,7 +8,8 @@ export HOMEBREW_CASK_OPTS="--no-quarantine"
 # ======  Change ZSH Options
 
 # ======  Create Alias
-alias ls='ls -lAFh'
+alias ls='exa -laFh --git'
+alias exa="exa -laFh --git"
 
 # ======  Customise Prompts
 # the %L denotes the level of shells. We can also get the level the shell by using $SHLVL
